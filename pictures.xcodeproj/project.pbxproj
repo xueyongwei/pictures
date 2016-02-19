@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CFF5D24864C4D24831F121B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B2C84AE7CA8DCB294EAD61 /* libPods.a */; };
 		47417C4E1C75AE0700F21366 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47417C4D1C75AE0700F21366 /* main.m */; };
 		47417C511C75AE0700F21366 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47417C501C75AE0700F21366 /* AppDelegate.m */; };
 		47417C541C75AE0700F21366 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47417C531C75AE0700F21366 /* ViewController.m */; };
 		47417C571C75AE0700F21366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47417C551C75AE0700F21366 /* Main.storyboard */; };
 		47417C591C75AE0700F21366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47417C581C75AE0700F21366 /* Assets.xcassets */; };
 		47417C5C1C75AE0700F21366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47417C5A1C75AE0700F21366 /* LaunchScreen.storyboard */; };
+		478F52341C75BE6200544151 /* CAAnimation+CoreRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 478F521E1C75BE6200544151 /* CAAnimation+CoreRefresh.m */; };
+		478F52351C75BE6200544151 /* CoreFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 478F52201C75BE6200544151 /* CoreFooterView.m */; };
+		478F52361C75BE6200544151 /* CoreFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 478F52211C75BE6200544151 /* CoreFooterView.xib */; };
+		478F52371C75BE6200544151 /* CoreHeaderShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 478F52231C75BE6200544151 /* CoreHeaderShowView.m */; };
+		478F52381C75BE6200544151 /* CoreHeaderShowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 478F52241C75BE6200544151 /* CoreHeaderShowView.xib */; };
+		478F52391C75BE6200544151 /* CoreHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 478F52261C75BE6200544151 /* CoreHeaderView.m */; };
+		478F523A1C75BE6200544151 /* CoreHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 478F52271C75BE6200544151 /* CoreHeaderView.xib */; };
+		478F523B1C75BE6200544151 /* CoreRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 478F52291C75BE6200544151 /* CoreRefreshConst.m */; };
+		478F523C1C75BE6200544151 /* CoreRefreshResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 478F522B1C75BE6200544151 /* CoreRefreshResource.bundle */; };
+		478F523D1C75BE6200544151 /* CoreRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 478F522D1C75BE6200544151 /* CoreRefreshView.m */; };
+		478F523E1C75BE6200544151 /* UIScrollView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 478F522F1C75BE6200544151 /* UIScrollView+Extension.m */; };
+		478F523F1C75BE6200544151 /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 478F52311C75BE6200544151 /* UIScrollView+Refresh.m */; };
+		478F52401C75BE6200544151 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 478F52331C75BE6200544151 /* UIView+Extension.m */; };
+		478F52491C75C3C500544151 /* PictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 478F52471C75C3C500544151 /* PictureCell.m */; };
+		478F524A1C75C3C500544151 /* PictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 478F52481C75C3C500544151 /* PictureCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FA63B04B48B89BE56E61BF4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		47417C491C75AE0700F21366 /* pictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pictures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47417C4D1C75AE0700F21366 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47417C4F1C75AE0700F21366 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +43,35 @@
 		47417C581C75AE0700F21366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47417C5B1C75AE0700F21366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47417C5D1C75AE0700F21366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478F521B1C75B68C00544151 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		478F521D1C75BE6200544151 /* CAAnimation+CoreRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+CoreRefresh.h"; sourceTree = "<group>"; };
+		478F521E1C75BE6200544151 /* CAAnimation+CoreRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+CoreRefresh.m"; sourceTree = "<group>"; };
+		478F521F1C75BE6200544151 /* CoreFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreFooterView.h; sourceTree = "<group>"; };
+		478F52201C75BE6200544151 /* CoreFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreFooterView.m; sourceTree = "<group>"; };
+		478F52211C75BE6200544151 /* CoreFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreFooterView.xib; sourceTree = "<group>"; };
+		478F52221C75BE6200544151 /* CoreHeaderShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreHeaderShowView.h; sourceTree = "<group>"; };
+		478F52231C75BE6200544151 /* CoreHeaderShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreHeaderShowView.m; sourceTree = "<group>"; };
+		478F52241C75BE6200544151 /* CoreHeaderShowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreHeaderShowView.xib; sourceTree = "<group>"; };
+		478F52251C75BE6200544151 /* CoreHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreHeaderView.h; sourceTree = "<group>"; };
+		478F52261C75BE6200544151 /* CoreHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreHeaderView.m; sourceTree = "<group>"; };
+		478F52271C75BE6200544151 /* CoreHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreHeaderView.xib; sourceTree = "<group>"; };
+		478F52281C75BE6200544151 /* CoreRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreRefreshConst.h; sourceTree = "<group>"; };
+		478F52291C75BE6200544151 /* CoreRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreRefreshConst.m; sourceTree = "<group>"; };
+		478F522A1C75BE6200544151 /* CoreRefreshEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreRefreshEntry.h; sourceTree = "<group>"; };
+		478F522B1C75BE6200544151 /* CoreRefreshResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CoreRefreshResource.bundle; sourceTree = "<group>"; };
+		478F522C1C75BE6200544151 /* CoreRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreRefreshView.h; sourceTree = "<group>"; };
+		478F522D1C75BE6200544151 /* CoreRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreRefreshView.m; sourceTree = "<group>"; };
+		478F522E1C75BE6200544151 /* UIScrollView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Extension.h"; sourceTree = "<group>"; };
+		478F522F1C75BE6200544151 /* UIScrollView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Extension.m"; sourceTree = "<group>"; };
+		478F52301C75BE6200544151 /* UIScrollView+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Refresh.h"; sourceTree = "<group>"; };
+		478F52311C75BE6200544151 /* UIScrollView+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Refresh.m"; sourceTree = "<group>"; };
+		478F52321C75BE6200544151 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		478F52331C75BE6200544151 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		478F52461C75C3C500544151 /* PictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureCell.h; sourceTree = "<group>"; };
+		478F52471C75C3C500544151 /* PictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureCell.m; sourceTree = "<group>"; };
+		478F52481C75C3C500544151 /* PictureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PictureCell.xib; sourceTree = "<group>"; };
+		786CAAA60756E6AF9D84B77B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F2B2C84AE7CA8DCB294EAD61 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +79,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CFF5D24864C4D24831F121B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3620991DE1EC7F59C324B88F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				786CAAA60756E6AF9D84B77B /* Pods.debug.xcconfig */,
+				0FA63B04B48B89BE56E61BF4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		47417C401C75AE0700F21366 = {
 			isa = PBXGroup;
 			children = (
+				478F521B1C75B68C00544151 /* PrefixHeader.pch */,
 				47417C4B1C75AE0700F21366 /* pictures */,
 				47417C4A1C75AE0700F21366 /* Products */,
+				3620991DE1EC7F59C324B88F /* Pods */,
+				B268D53F423D5DB559BD18F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +122,9 @@
 				47417C521C75AE0700F21366 /* ViewController.h */,
 				47417C531C75AE0700F21366 /* ViewController.m */,
 				47417C551C75AE0700F21366 /* Main.storyboard */,
+				478F52461C75C3C500544151 /* PictureCell.h */,
+				478F52471C75C3C500544151 /* PictureCell.m */,
+				478F52481C75C3C500544151 /* PictureCell.xib */,
 				47417C581C75AE0700F21366 /* Assets.xcassets */,
 				47417C5A1C75AE0700F21366 /* LaunchScreen.storyboard */,
 				47417C5D1C75AE0700F21366 /* Info.plist */,
@@ -74,9 +136,56 @@
 		47417C4C1C75AE0700F21366 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				478F519D1C75B66D00544151 /* XLib */,
 				47417C4D1C75AE0700F21366 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		478F519D1C75B66D00544151 /* XLib */ = {
+			isa = PBXGroup;
+			children = (
+				478F521C1C75BE6200544151 /* CoreRefresh */,
+			);
+			path = XLib;
+			sourceTree = "<group>";
+		};
+		478F521C1C75BE6200544151 /* CoreRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				478F521D1C75BE6200544151 /* CAAnimation+CoreRefresh.h */,
+				478F521E1C75BE6200544151 /* CAAnimation+CoreRefresh.m */,
+				478F521F1C75BE6200544151 /* CoreFooterView.h */,
+				478F52201C75BE6200544151 /* CoreFooterView.m */,
+				478F52211C75BE6200544151 /* CoreFooterView.xib */,
+				478F52221C75BE6200544151 /* CoreHeaderShowView.h */,
+				478F52231C75BE6200544151 /* CoreHeaderShowView.m */,
+				478F52241C75BE6200544151 /* CoreHeaderShowView.xib */,
+				478F52251C75BE6200544151 /* CoreHeaderView.h */,
+				478F52261C75BE6200544151 /* CoreHeaderView.m */,
+				478F52271C75BE6200544151 /* CoreHeaderView.xib */,
+				478F52281C75BE6200544151 /* CoreRefreshConst.h */,
+				478F52291C75BE6200544151 /* CoreRefreshConst.m */,
+				478F522A1C75BE6200544151 /* CoreRefreshEntry.h */,
+				478F522B1C75BE6200544151 /* CoreRefreshResource.bundle */,
+				478F522C1C75BE6200544151 /* CoreRefreshView.h */,
+				478F522D1C75BE6200544151 /* CoreRefreshView.m */,
+				478F522E1C75BE6200544151 /* UIScrollView+Extension.h */,
+				478F522F1C75BE6200544151 /* UIScrollView+Extension.m */,
+				478F52301C75BE6200544151 /* UIScrollView+Refresh.h */,
+				478F52311C75BE6200544151 /* UIScrollView+Refresh.m */,
+				478F52321C75BE6200544151 /* UIView+Extension.h */,
+				478F52331C75BE6200544151 /* UIView+Extension.m */,
+			);
+			path = CoreRefresh;
+			sourceTree = "<group>";
+		};
+		B268D53F423D5DB559BD18F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2B2C84AE7CA8DCB294EAD61 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47417C601C75AE0700F21366 /* Build configuration list for PBXNativeTarget "pictures" */;
 			buildPhases = (
+				B3EFD223EBFCFA8A892F6AFF /* Check Pods Manifest.lock */,
 				47417C451C75AE0700F21366 /* Sources */,
 				47417C461C75AE0700F21366 /* Frameworks */,
 				47417C471C75AE0700F21366 /* Resources */,
+				27D002B4E0656232605AC1D0 /* Embed Pods Frameworks */,
+				DEE054DBEBE248DBFBA8B384 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,12 +249,65 @@
 			buildActionMask = 2147483647;
 			files = (
 				47417C5C1C75AE0700F21366 /* LaunchScreen.storyboard in Resources */,
+				478F523C1C75BE6200544151 /* CoreRefreshResource.bundle in Resources */,
+				478F52381C75BE6200544151 /* CoreHeaderShowView.xib in Resources */,
+				478F523A1C75BE6200544151 /* CoreHeaderView.xib in Resources */,
+				478F524A1C75C3C500544151 /* PictureCell.xib in Resources */,
 				47417C591C75AE0700F21366 /* Assets.xcassets in Resources */,
+				478F52361C75BE6200544151 /* CoreFooterView.xib in Resources */,
 				47417C571C75AE0700F21366 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27D002B4E0656232605AC1D0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3EFD223EBFCFA8A892F6AFF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEE054DBEBE248DBFBA8B384 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		47417C451C75AE0700F21366 /* Sources */ = {
@@ -150,8 +315,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				47417C541C75AE0700F21366 /* ViewController.m in Sources */,
+				478F52351C75BE6200544151 /* CoreFooterView.m in Sources */,
 				47417C511C75AE0700F21366 /* AppDelegate.m in Sources */,
+				478F52491C75C3C500544151 /* PictureCell.m in Sources */,
+				478F523E1C75BE6200544151 /* UIScrollView+Extension.m in Sources */,
+				478F52371C75BE6200544151 /* CoreHeaderShowView.m in Sources */,
+				478F523D1C75BE6200544151 /* CoreRefreshView.m in Sources */,
+				478F52401C75BE6200544151 /* UIView+Extension.m in Sources */,
+				478F523B1C75BE6200544151 /* CoreRefreshConst.m in Sources */,
+				478F523F1C75BE6200544151 /* UIScrollView+Refresh.m in Sources */,
 				47417C4E1C75AE0700F21366 /* main.m in Sources */,
+				478F52341C75BE6200544151 /* CAAnimation+CoreRefresh.m in Sources */,
+				478F52391C75BE6200544151 /* CoreHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +434,10 @@
 		};
 		47417C611C75AE0700F21366 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 786CAAA60756E6AF9D84B77B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/xueyongwei/Desktop/pictures/PrefixHeader.pch;
 				INFOPLIST_FILE = pictures/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pub.xyw.pictures;
@@ -270,8 +447,10 @@
 		};
 		47417C621C75AE0700F21366 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA63B04B48B89BE56E61BF4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/xueyongwei/Desktop/pictures/PrefixHeader.pch;
 				INFOPLIST_FILE = pictures/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pub.xyw.pictures;
@@ -298,6 +477,7 @@
 				47417C621C75AE0700F21366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
